@@ -4,16 +4,17 @@ SRC_DIR := src
 BUILD_DIR := build
 
 CC := clang
-SRCS := $(wildcard $(SRC_DIR)/*.c)
-TARGETS := $(patsubst $(SRC_DIR)/%.c, $(BUILD_DIR)/%, $(SRCS))
+TRIES := ifnfvanf wustdlib
+TARGETS :=
+
+all :
+
+include $(patsubst %, $(SRC_DIR)/%/Makefile.defs, $(TRIES))
 
 all : $(TARGETS)
-
-$(BUILD_DIR)/% : $(SRC_DIR)/%.c | $(BUILD_DIR)
-	$(CC) -o $@ $^
 
 $(BUILD_DIR) :
 	mkdir -p $@
 
-clean : $(BUILD_DIR)
+clean : $(BUILD_DIR) # On purpose
 	rm -rf $<

@@ -1,0 +1,4 @@
+TARGETS += $(BUILD_DIR)/ifnfvanf
+
+$(BUILD_DIR)/ifnfvanf: $(SRC_DIR)/ifnfvanf/ifnfvanf.c | $(BUILD_DIR)
+	$(CC) -o $@ $^
