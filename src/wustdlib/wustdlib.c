@@ -10,11 +10,12 @@
 #define THEY_ALWAYS "\x73\x79\x73"
 #define KNEW "\x63\x61\x6C\x6C"
 #define BUT "\x2C"
-#define BELIVE v##o##i##d
+#define BELIEVE v##o##i##d
 #define ME _##s##t##a##r##t
 #define THAT_WHEN _##_##a##s##m##_##_
 #define I_TELL_YOU v##o##l##a##t##i##l##e
-BELIVE ME (BELIVE) <%
+
+BELIEVE ME (BELIEVE) <%
 	THAT_WHEN I_TELL_YOU (IF ONLY THEY SAID BUT THEY SAID THAT_COMMA 
 		ONLY WHEN WE DID THAT_COMMA
 		IF ONLY THEY THOUGHT BUT THEY THOUGHT THAT_COMMA 
