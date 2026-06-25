@@ -1,5 +1,5 @@
 TARGETS += $(BUILD_DIR)/trac
-TRAC_CFLAGS := -std=c89
+TRAC_CFLAGS := -std=c89 -Wno-implicit-function-declaration
 
 $(BUILD_DIR)/trac : $(SRC_DIR)/trac/trac.c | $(BUILD_DIR)
 	$(CC) $(TRAC_CFLAGS) -o $@ $^
