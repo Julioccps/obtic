@@ -13,3 +13,6 @@ As the name suggests, these are tries in obfuscating code in C
     - That's that you read, why should you? When you can just tell a story.
 - [TRAC](src/trac/trac.c) - The Roads Are Coming
     - Watch out for the roads, it may or may not have rocks on your way
+- [PWSHBAST](src/pwshbast/pwshbast.c) - Perlin Would Scratch His Belly After
+  Seeing This
+  - No commentary

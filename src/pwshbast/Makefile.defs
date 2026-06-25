@@ -1,0 +1,7 @@
+TARGETS += $(BUILD_DIR)/pwshbast
+PWSHBAST_CFLAGS := -std=c89 -Wno-implicit-function-declaration -Wno-unused-value
+
+$(BUILD_DIR)/pwshbast : $(SRC_DIR)/pwshbast/pwshbast.c
+	$(CC) $(PWSHBAST_CFLAGS) -o $@ $^
+
+

@@ -4,7 +4,7 @@ SRC_DIR := src
 BUILD_DIR := build
 
 CC := clang
-TRIES := ifnfvanf wustdlib trac
+TRIES := ifnfvanf wustdlib trac pwshbast
 TARGETS :=
 
 all :
