@@ -1,9 +1,9 @@
 TARGETS += $(BUILD_DIR)/wustdlib
-CFLAGS := -nostdlib -ffreestanding
+WUSTDLIB_CFLAGS := -nostdlib -ffreestanding
 LDFLAGS := -nostartfiles
 
 $(BUILD_DIR)/wustdlib : $(BUILD_DIR)/wustdlib.o
 	$(CC) $(LDFLAGS) -o $@ $^
 
 $(BUILD_DIR)/wustdlib.o : $(SRC_DIR)/wustdlib/wustdlib.c | $(BUILD_DIR)
-	$(CC) $(CFLAGS) -c -o $@ $<
+	$(CC) $(WUSTDLIB_CFLAGS) -c -o $@ $<
