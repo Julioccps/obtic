@@ -16,3 +16,6 @@ As the name suggests, these are tries in obfuscating code in C
 - [PWSHBAST](src/pwshbast/pwshbast.c) - Perlin Would Scratch His Belly After
   Seeing This
   - No commentary
+- [IKWYDI](src/ikwydi/ikwydi.c) - I Know Where Your Dot Is
+  - You can put it where ever you like, I'll always find it, if it doesn't have,
+  then I'll cry (seg fault)
