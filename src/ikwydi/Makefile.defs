@@ -1,0 +1,4 @@
+TARGETS += $(BUILD_DIR)/ikwydi
+
+$(BUILD_DIR)/ikwydi: $(SRC_DIR)/ikwydi/ikwydi.c | $(BUILD_DIR)
+	$(CC) -o $@ $^
